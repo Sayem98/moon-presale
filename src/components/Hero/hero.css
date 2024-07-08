@@ -1,0 +1,39 @@
+.bg-img {
+  background: url("../../assets/hero.jpg") no-repeat center top / cover;
+  min-height: 760px;
+}
+.lines-lr::after {
+  content: "";
+  width: 25%;
+  height: 1px;
+  background: #878787;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.lines-lr::before {
+  content: "";
+  width: 25%;
+  height: 1px;
+  background: #878787;
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+.buy-now-btn {
+  border-radius: 8px;
+  border: 2px solid #ffffff;
+  background: #aa5133;
+  box-shadow: 4px 4px #aa5133;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  padding: 7px 15px;
+  font-weight: 900;
+  width: 100%;
+  margin: auto;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

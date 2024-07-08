@@ -1,0 +1,35 @@
+.btn {
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    background: #1b3083f5;
+    box-shadow: 4px 4px #1b3083f5;
+    color: white;
+    font-size: 14px;
+    letter-spacing: .5px;
+    padding: 7px 15px;
+    font-weight: 900;
+    min-width: 160px;
+    min-height: 45px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-audit {
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    background: #Aa5133;
+    box-shadow: 4px 4px #Aa5133;
+    color: white;
+    font-size: 14px;
+    letter-spacing: .5px;
+    padding: 7px 15px;
+    font-weight: 900;
+    min-width: 160px;
+    min-height: 45px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
